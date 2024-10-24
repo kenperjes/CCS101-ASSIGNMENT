@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO KENNETH'S BOOKSTORE</h1>
+        <h4 class="intro">IN OUR BOOKSTORE, YOU CAN BUY POPULAR AND BEST BOOKS IN DIFFERENT GENRE YOU WANT! WITH AFFORDABLE PRICES AND EXCELLENT QUALITY.</h4>
+        <a href="page2.html" class="page-link">GO TO SECOND PAGE</a>
+    </header>
+    <section id="new-releases">
+        <h2>2024 NEW RELEASES:</h2>
+        <ul>
+            <li class="new">Funny Story by Emily Henry</li>
+            <h4>₱479.00</h4>
+            <li class="new">Bride by Ali Hazelwood</li>
+            <h4>₱369.90</h4>
+            <li class="new">The Women by Kristin Hannah</li>
+            <h4>₱175.00</h4>
+            <li class="new">The Life Impossible: A Novel by Matt Haig</li>
+            <h4>₱285.90</h4>
+            <li class="new">Just for the Summer by Abby Jimenez</li>
+            <h4>₱249.00</h4>
+        </ul>
+    </section>
+    <section id="best-sellers">
+        <h2>OUR BESTSELLERS:</h2>
+        <ul>
+            <li class="bseller">Counting Miracles: A Novel by Nicholas Sparks</li>
+            <h4>₱879.00</h4>
+            <li class="bseller">The Stars are Dying by Chloe Penarada</li>
+            <h4>₱239.80</h4>
+            <li class="bseller">Intermezzo: A Novel by Sally Rooney</li>
+            <h4>₱339.00</h4>
+            <li class="bseller">Iron Flame by Rebecca Yarros</li>
+            <h4>₱499.99</h4>
+            <li class="bseller">Here One Moment by Liane Moriarty</li>
+            <h4>₱749.00</h4>
+        </ul>
+    </section>
+    <section id="e-books">
+        <h2>E-BOOKS:</h2>
+        <ul>
+            <li class="ebook">Polar Opposites by Barbara Kellyn</li>
+            <h4>₱169.00</h4>
+            <li class="ebook">Patriot by Alexel Navalny</li>
+            <h4>₱299.00</h4>
+            <li class="ebook">The Vegetarian by Han Kang</li>
+            <h4>₱349.50</h4>
+            <li class="ebook">What does it Feel like? by Sophie Kinsella</li>
+            <h4>₱579.00</h4>
+            <li class="ebook">The Mighty Red by Louise Erdrich</li>
+            <h4>₱129.00</h4>
+        </ul>
+    </section>
+    <section id="lit-classics">
+        <h2>LITERARY CLASSICS:</h2>
+        <ul>
+            <li class="classics">Persuasion: Dover Thrift Editions by Jane Austen</li>
+            <h4>₱509.15</h4>
+            <li class="classics">Passing, Little Clothbound by Sten Odenwald</li>
+            <h4>₱849.15</h4>
+            <li class="classics">Tom Jones, Alma Classics by Henry Fielding</li>
+            <h4>₱535.50</h4>
+            <li class="classics">Discourses and Selected Writings by Epictetus</li>
+            <h4>₱339.15</h4>
+            <li class="classics">The Communist, Manifesto by Karl Marx</li>
+            <h4>₱149.95</h4>
+        </ul>
+    </section>
+    <footer>
+        <h2 id="payment">PAYMENT METHODS</h2>
+        <h4 id="methods">BANK DEPOSIT, CASH ON DELIVERY, DIGITAL WALLETS, ONLINE BANKING</h4>
+        <h3 class="concerns">FOR INQUIRIES AND CONCERNS, GET IN TOUCH WITH US AT OUR OFFICIAL FACEBOOK PAGE: THE KENNETH'S BOOKSTORE</h3>
+    </footer>
+</body>
+</html>
