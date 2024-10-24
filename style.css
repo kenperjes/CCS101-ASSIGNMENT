@@ -1,0 +1,119 @@
+/* This is Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is Type Selector */
+body {
+    background-color: #465e48;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    margin: 20px 0;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1.5px solid #29352a;
+    background-color: #fff;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    padding-bottom: 5px;
+    letter-spacing: .50px;
+    color: #444;
+}
+
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c56212;
+    font-weight: 300;
+}
+
+footer {
+    margin: 20px 0;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1.5px solid #29352a;
+    background-color: #fff;
+}
+
+/* This is ID Selector */
+#new-releases, #best-sellers, #e-books, #award-winners, #manga, #watt-pad, #lit-classics, #chld-classics {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1.5px solid #29352a;
+    background-color: #fff;
+}
+
+#payment {
+    padding-bottom: 0.5px;
+}
+
+#methods {
+    padding-bottom: 1px;
+}
+/* This is Class Selector */
+.book {
+    color: #444;
+    padding: 5px;
+}
+
+/* This is Descendant Selector */
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* This is Grouping Selector */
+.new, .bseller, .ebook, .classics, .wattp, .award, .mang, .child {
+    font-family: 'Georgia', serif;
+    font-style: inherit;
+    font-size: medium;
+    padding-bottom: 3px;
+}
+
+.intro {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: #c56212;
+    word-spacing: 1px;
+    padding-bottom: 0.5px;
+}
+
+.concerns {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #444;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+/* This is Child Selector */
+header > h1 {
+    margin-bottom: 10px;
+}
+
+/* This is Attribute Selector */
+a[class="page-link"] {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    word-spacing: 1px;
+    padding-bottom: 50px;
+    right: 20px;
+    top: 20px;
+    color: rgb(224, 115, 37);
+    text-decoration: none;
+}
